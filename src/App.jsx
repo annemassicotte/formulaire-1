@@ -22,7 +22,11 @@ function App() {
 						className="mb-3 container-fluid">
 						Try it free 7 days then $20/mo. thereafter
 					</Button>
-					<Form />
+          <Form />
+          <small className="text-center mt-3">
+						By clicking the button, you are agreeing to our{" "}
+						<a href="#">Terms and services</a>.
+					</small>
 				</Col>
 			</Row>
 		</Container>

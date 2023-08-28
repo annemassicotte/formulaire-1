@@ -28,22 +28,24 @@ const Form = () => {
 	return (
 		<BsForm onSubmit={onSubmit}>
 			<Row className="d-flex gap-3">
-				<Input value={formData.firstname} id="firstname" onChange={onChange} />
+				<Input value={formData.firstname} id="firstname" onChange={onChange} placeholder="First Name" />
 
-				<Input value={formData.lastname} id="lastname" onChange={onChange} />
+				<Input value={formData.lastname} id="lastname" onChange={onChange} placeholder="Last Name" />
 
 				<Input
 					type="email"
 					value={formData.email}
 					id="email"
-					onChange={onChange}
+                    onChange={onChange}
+                    placeholder="Email"
 				/>
 
 				<Input
 					type="password"
 					value={formData.password}
 					id="password"
-					onChange={onChange}
+                    onChange={onChange}
+                    placeholder="Password"
 				/>
 			</Row>
 

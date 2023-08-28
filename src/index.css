@@ -1,3 +1,13 @@
 body {
 	background-color: rgb(241, 138, 122) !important;
 }
+
+small a {
+	color: rgb(241, 138, 122) !important;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+small {
+	display: block;
+}
